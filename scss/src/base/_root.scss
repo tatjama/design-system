@@ -1,0 +1,62 @@
+:root {
+  // scss is not fully compatible with css variables, so we have to embed them.
+
+  /*=============================================
+=            Global text colors            =
+=============================================*/
+
+  --dse-body-text-color: #{$dark};
+  --dse-body-bg-color: #{$white};
+
+  /*=====  End of Global text colors  ======*/
+
+  /*=============================================
+=            Button colors            =
+=============================================*/
+
+  --dse-btn-primary-color: #{$white};
+  --dse-btn-primary-bg: #{$green};
+  --dse-btn-primary-bg-hover: #{$green-light};
+
+  --dse-btn-secondary-color: #{$white};
+  --dse-btn-secondary-bg: #{$dark};
+
+  /*=====  End of Button colors  ======*/
+
+  /*=============================================
+=            Form Colors            =
+=============================================*/
+
+  --dse-form-color: #{$dark};
+  --dse-form-bg: #{$white};
+  --dse-form-error-color: #{$red};
+  --dse-form-error-border: #{$red};
+  --dse-form-border-color: #{$green};
+
+  /*=====  End of Form Colors  ======*/
+
+  /*=============================================
+=            Floating Action button colors            =
+=============================================*/
+
+  --dse-action-btn-color: #{$white};
+  --dse-action-btn-bg: #{$green};
+  --dse-action-btn-bg-hover: #{$green-light};
+  --dse-action-btn-elevation: #{$gray-light};
+
+  /*=====  End of Floating Action button colors  ======*/
+
+  /*=============================================
+=            App Bar Colors            =
+=============================================*/
+
+  --dse-bar-primary-color: #{$white};
+  --dse-bar-primary-bg: #{$blue};
+  --dse-bar-primary-elevation: #{$gray-light};
+
+  --dse-bar-neutral-color: #{$dark};
+  --dse-bar-neutral-bg: #{$white};
+  --dse-bar-neutral-elevation: #{$gray-light};
+
+  /*=====  End of App Bar Colors  ======*/
+}
