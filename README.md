@@ -7,12 +7,11 @@
 ## create .gitignore
 
 ## SCSS design system
-    create foundation, base and global folders
+    create foundation and base folders
     install stylelint dependencies for scss 
     create .stylelintrs.json
     create scripts for stylelintrc.json in the package.json
 
-    Create SCSS foundations, SCSS global, install stylelint packages
 
 1. Create folders: scss => src => foundation with files
 
